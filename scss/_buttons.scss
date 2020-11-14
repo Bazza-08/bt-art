@@ -1,0 +1,13 @@
+.btn {
+    color: #000;
+    opacity: 0.3;
+    padding: .3rem .1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: $secondary-color;
+    opacity: 1;
+    cursor: pointer;
+}

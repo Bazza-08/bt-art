@@ -20,14 +20,56 @@
             </nav>
         </header>
 
+        <div class="pencil-paintings">
+            <ul>
+                <li onclick = "toggle2()" class='current btn pencil-btn'>Pencil</li>
+                <li onclick = "toggle1()" class='btn painting-btn'>Paintings</li>
+            </ul>
+        </div>
+
         <div class="gallery">
-            <div class="box">
-                <img src="css/img/rhino.jpg" alt="Pencil Drawing of Rhino">
+            <div id="pencil">
+                <div class="col">
+                    <img src="css/img/rhino.jpg" alt="">
+                    <img src="css/img/leopard.jpg" alt="">
+                    <img src="css/img/zebra.jpg" alt="">
+                </div>  
+                <div class="col">
+                    <img src="css/img/hippos.jpg" alt="">
+                    <img src="css/img/kudu.jpg" alt="">
+                    <img src="css/img/young-leopard.jpg" alt="">
+                </div>        
+                <div class="col">
+                    <img src="css/img/impala.jpg" alt="">
+                    <img src="css/img/buffalo.jpg" alt="">     
+                </div>     
+                <div class="col">
+                    <img src="css/img/wild-dog.jpg" alt="">
+                    <img src="css/img/lab.jpg" alt="">
+                </div>
+            </div>
+            
+            <div id="paintings" class='hide'>
+                <div class="col">
+                    <img src="css/img/aloe1.jpg" alt="">
+                    <img src="css/img/lab1.jpg" alt="">
+                </div>  
+                <div class="col">
+                    <img src="css/img/dalmation.jpg" alt="">
+                    <img src="css/img/pink-flowers.jpg" alt="">
+                </div>        
+                <div class="col">
+                    <img src="css/img/aloe2.jpg" alt="">
+                </div>     
+                <div class="col">
+                    <img src="css/img/aloe3.jpg" alt="">
+                </div>                   
             </div>
         </div>
     </div>
        
 
     <script src="https://kit.fontawesome.com/b373afb9e9.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
