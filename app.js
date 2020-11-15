@@ -19,3 +19,4 @@ function toggle2() {
     pencilBtn.classList.add('current');
 }
 
+// CREATE GALLERY MODAL

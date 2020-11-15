@@ -1,6 +1,5 @@
 img {
     max-width: 100%;
-    height: auto;
 }
 
 a {
@@ -10,11 +9,17 @@ a {
     padding: .3rem .1rem;
     font-weight: 700;
     text-transform: uppercase;
+    transition: 0.5s;
+
+    &:hover {
+        color: $secondary-color;
+        opacity: 1;
+        text-decoration: underline;
+    }
 }
 
 a:hover {
-    color: $secondary-color;
-    opacity: 1;
+    
 }
 
 li {
