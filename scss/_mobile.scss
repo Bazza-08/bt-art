@@ -1,0 +1,20 @@
+// Media Query
+@media screen and (max-width: 500px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .showcase {
+        flex-direction: column-reverse;
+    }
+}
+
+// @media screen and(min-width: 769px) and (max-width: 1170px) {
+//     .showcase {
+//         display: block;
+//     }
+// }
+
+// @media screen and (min-width: 1171px) {
+    
+// }
