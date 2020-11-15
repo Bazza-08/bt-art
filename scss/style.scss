@@ -1,7 +1,7 @@
 @import 'config';
 @import 'utilities';
 @import 'buttons';
-@import 'mobile';
+
 
 
 // Globals
@@ -184,4 +184,6 @@ header {
         width: 60%;
     }
 }
+
+@import 'mobile';
 

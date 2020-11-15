@@ -7,13 +7,22 @@
     .showcase {
         flex-direction: column-reverse;
     }
+
+    .gallery {
+        #pencil, #paintings {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    }
 }
 
-// @media screen and(min-width: 769px) and (max-width: 1170px) {
-//     .showcase {
-//         display: block;
-//     }
-// }
+@media screen and(min-width: 769px) and (max-width: 1170px) {
+    .gallery {
+        #pencil, #paintings {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
 
 // @media screen and (min-width: 1171px) {
     
